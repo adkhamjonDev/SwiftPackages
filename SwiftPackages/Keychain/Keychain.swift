@@ -27,8 +27,8 @@ struct Keychain: View {
             userPassword = newPassword
 
 
-            keychainManager.keychain.delete("user_password")
-            keychainManager.keychain.clear()
+//            keychainManager.keychain.delete("user_password")
+//            keychainManager.keychain.clear()
 
         }
         .onAppear{
